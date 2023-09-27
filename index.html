@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="senha">
+        <h1>Gerador de Senhas</h1>
+    <input type="number" id="tamanhoSenha">
+    <div class="check">
+        <input type="checkbox" id="minusculas"><label for="minusculas">Minusculas</label>
+        <input type="checkbox" id="maiusculas"><label for="minusculas">Maiusculas</label>
+        <input type="checkbox" id="numeros"><label for="minusculas">Numeros</label>
+        <input type="checkbox" id="especiais"><label for="especiais">Especiais </label>
+    </div>
+    <button id="btnsenha" class="btn" onclick="gerarSenha()"> Gerar Senha</button>
+    <p id="senhap"></p>
+    <button id="btnapsenha" class="btn" onclick="apagarSenha()">Apagar Senha</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
